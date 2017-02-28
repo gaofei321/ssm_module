@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.kaishengit:ssm-util:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kaishengit/ssm-util/unknown/ssm-util-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kaishengit/ssm-util/unknown/ssm-util-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kaishengit/ssm-util/unknown/ssm-util-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

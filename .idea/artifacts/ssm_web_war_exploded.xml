@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ssm-web:war exploded">
+    <output-path>$PROJECT_DIR$/ssm-web/target/ssm-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ssm-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="ssm-web-1.0.jar">
+            <element id="module-output" name="ssm-web" />
+          </element>
+          <element id="library" level="project" name="Maven: com.kaishengit:ssm-service:unknown" />
+          <element id="library" level="project" name="Maven: junit:junit:unknown" />
+          <element id="library" level="project" name="Maven: jstl:jstl:unknown" />
+          <element id="archive" name="ssm-entity-1.0.jar">
+            <element id="module-output" name="ssm-entity" />
+          </element>
+          <element id="archive" name="ssm-util-1.0.jar">
+            <element id="module-output" name="ssm-util" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ssm-web/target/ssm-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ssm-web/web/Web" />
+    </root>
+  </artifact>
+</component>
